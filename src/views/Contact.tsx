@@ -1,5 +1,4 @@
-// pages/contact.tsx
-import Layout from "../layouts/Layouts"; // ajusta la ruta si es necesario
+import Layout from "../layouts/Layouts";
 
 export default function Contact() {
   return (
