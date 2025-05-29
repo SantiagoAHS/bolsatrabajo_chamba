@@ -4,6 +4,7 @@ import Contact from './views/Contact';
 import Home from './views/Home';
 import Help from './views/Help';
 import About from './views/About';
+import Search from './views/Search';
 
 
 export default function AppRouter() {
@@ -15,6 +16,7 @@ export default function AppRouter() {
           <Route path="/contacto" element={<Contact />} />
           <Route path='/ayuda' element={<Help/>}/>
           <Route path='/acerca' element={<About/>}/>
+          <Route path='/buscar' element={<Search/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
